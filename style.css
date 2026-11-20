@@ -1,0 +1,96 @@
+/* =====Global Reset======= */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgba(48, 2, 2, 0.471);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+button{
+    font-family: inherit;
+    background: rgb(246, 221, 29);
+    color: brown;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.topbar{
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 4%;
+    background: rgb(2 , 48, 76);
+    border-bottom: 1px solid rgb(246, 221, 29);
+}
+
+.brand{
+    display: flex;
+    gap:12px;
+    align-items: center;
+}
+
+.brand-logo{
+    background: #2838e8;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-weight: bold;
+    font-size: 23px;
+}
+.brand h1{
+    color: #54a5ff;
+    letter-spacing: 3px;
+}
+.brand p{
+    color: #91a8c5;
+    font-size: 9px;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+     color: #aebed3;
+     font-size: 13px;
+     text-decoration: none;
+}
+
+nav a:hover{
+    color: #54a5ff;
+}
+
+.header-right{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: #39d6a0;
+    font-size: 11px;
+}
+.online-dot{
+
+    width: 9px;
+    height: 9px;
+    background: #39d6a0;
+    border-radius: 50%;
+
+}
+#clock {
+    color: white;
+    font-family: monospace;
+    margin: 10px;
+}
